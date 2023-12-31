@@ -7,7 +7,7 @@ Scripts for running the analysis described in the paper ["Efficient evolution of
 To evaluate the model on a new sequence, clone this repository and run
 ```bash
 python bin/recommend.py [sequence]
-```
+``` 
 where `[sequence]` is the wildtype protein sequence you want to evolve. The script will output a list of substitutions and the number of recommending language models.
 
 To recommend mutations to antibody variable domain sequences, we have simply run the above script separately on the heavy and light chain sequences.
