@@ -17,7 +17,7 @@ We have also made a [Google Colab](https://colab.research.google.com/drive/18QLO
 ### Paper analysis scripts
 
 To reproduce the analysis in the paper, first download and extract data with the commands:
-```bash
+```bash 
 wget https://zenodo.org/record/6968342/files/data.tar.gz
 tar xvf data.tar.gz
 ```
