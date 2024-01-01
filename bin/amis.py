@@ -214,7 +214,7 @@ def reconstruct_multi_models(
             'esm1v5',
         ],
         alpha=None,
-        return_names=False,
+        return_names=True,
 ):
     mutations_models, mutations_model_names = {}, {}
     for model_name in model_names:
